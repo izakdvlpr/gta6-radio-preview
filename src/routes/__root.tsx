@@ -90,6 +90,12 @@ function RootDocument({ children }: { children: React.ReactNode }) {
 			</head>
 			<body>
 				{children}
+				<script
+					defer
+					src="https://dataxamas.com/dataxamas.js"
+					data-api-key="dx_live_xYdCk5tFPJ9SHrXfoxR2xBSABVJm3Sg0FW0hMAKqnBE"
+					data-allow-localhost="true"
+				></script>
 				<Scripts />
 			</body>
 		</html>
